@@ -1,0 +1,54 @@
+body {
+    background-color: lightblue;
+}
+h3, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {
+    text-align: center;
+}
+
+.main-design-container {
+    display: inline;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 600px;
+}
+
+.input, .calculations {
+    /* display: inline-flex; */
+    display: inline-block;
+
+    width: 38%;
+}
+
+.buttons{
+    padding-bottom: 50px;
+}
+
+.input {
+    height: 400px;
+    background-color: white;
+    
+    padding: 2%;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+.calculations {
+    float: right;
+}
+
+
+.tip-amount {
+    padding: 10px 0 100px;
+}
+
+.tip-holder, .total-amount-holder {
+    float: right;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tip_calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <p>S P L I</p>
+            <p>T T E R</p>
+        </div>
+        <div class="main-design-container">
+            <div class="input">
+                <p class="block">Bill: </p>
+                <input class="bill-amount" type="number" placeholder="0" />
+                <p>Select Tip: </p>
+                <div class="buttons">
+                    <button class="tip-5" value="5" onclick="calculateTip(5)">5%</button>
+                    <button class="tip-10" onclick="calculateTip(10)">10%</button>
+                    <button class="tip-15" onclick="calculateTip(15)">15%</button>
+                    <button class="tip-25" onclick="calculateTip(25)">25%</button>
+                    <button class="tip-50" onclick="calculateTip(50)">50%</button>
+                </div>
+                <div class="persons">
+                    <input class="num-of-person" type="number" placeholder="num of people">
+                </div>
+            </div>
+            <div class="calculations">
+                <div class="tip-amount">
+                    <h3>Tip Amout</h3>
+                    <h6>/ Person</h6>
+                    <span class="tip-holder">tip:</span>
+                </div>
+                <div class="total-amout">
+                    <h3>Total</h3>
+                    <h6>/ Person</h6>
+                    <span class="total-amount-holder">amount: </span>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <script src="./script.js" > </script>
+    </body>
+    </html>
